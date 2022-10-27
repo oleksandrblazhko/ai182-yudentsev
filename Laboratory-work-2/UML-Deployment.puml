@@ -1,0 +1,41 @@
+@startuml
+title UML-діаграма розгортання ПП
+
+left to right direction
+
+skinparam componentStyle uml1
+
+node "<<User Computer>>" as uc {
+            component [*Web Browser] as wb
+}
+
+node "<<Spring Server>>" as sp {
+component [*SystemController] as sc
+component [*UserService] as us
+component [*ContainerService] as cs
+component [*ShipmentService] as ss
+}
+
+node "<<Database Server>>" as db {
+database PostgreSQL as postgresql
+}
+
+node "<<AISHub Service>>" as AISHub {
+component [*TrackingService] as ts
+}
+
+node "<<LiqPay Service>>" as LiqPay {
+component [*PaymentService] as ps
+}
+
+
+ss --> postgresql 
+cs --> postgresql
+us --> postgresql
+
+
+ss --> sc
+ss --> ps
+ss --> ts
+wb --> sc
+@enduml
