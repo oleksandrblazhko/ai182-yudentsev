@@ -42,13 +42,13 @@
 Точне місце, де зберігається ця інформація, залежить від операційної системи клієнта та браузера, який використовувався. Ось кілька прикладів:
 
 - Mozilla Firefox:
-  - Unix/Linux: ~/.cache/mozilla/firefox/
-  - Windows: C:\Users\<ім'я_користувача>\AppData\Local\Mozilla\Firefox\Profiles\<id-профілю>\Cache2\
+  - Unix/Linux: `~/.cache/mozilla/firefox/`
+  - Windows: `C:\Users\<ім'я_користувача>\AppData\Local\Mozilla\Firefox\Profiles\<id-профілю>\Cache2\`
 - Internet Explorer:
-  - C:\Users\<ім'я_користувача>\AppData\Local\Microsoft\Windows\INetCache\
+  - `C:\Users\<ім'я_користувача>\AppData\Local\Microsoft\Windows\INetCache\`
 - Chrome:
-  - Windows: C:\Users\<ім'я_користувача>\AppData\Local\Google\Chrome\User Data\Default\Cache    
-  - Unix/Linux: ~/.cache/google-chrome
+  - Windows: `C:\Users\<ім'я_користувача>\AppData\Local\Google\Chrome\User Data\Default\Cache` 
+  - Unix/Linux: `~/.cache/google-chrome`
 
 ### Перегляд кешованої інформації
 
