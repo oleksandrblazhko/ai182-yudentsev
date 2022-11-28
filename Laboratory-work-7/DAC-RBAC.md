@@ -180,7 +180,7 @@ GRANT yudientsev TO oleksii;`
 
 <img width="322" alt="Снимок экрана 2022-11-28 в 16 00 29" src="https://user-images.githubusercontent.com/46464830/204296184-dac78bd9-acf9-4cf5-b715-fb3682be5f16.png">
 
-## Крок 21
+## Крок 22
 
 **Повторіть крок 20.**
 
