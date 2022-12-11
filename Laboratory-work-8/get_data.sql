@@ -1,6 +1,6 @@
 CREATE OR REPLACE FUNCTION get_data(model_name VARCHAR)
 RETURNS TABLE
-(c_id INTEGER, model VARCHAR, year VARCHAR)
+(c_id INTEGER, model VARCHAR, year INTEGER)
 AS $$
 DECLARE
 	str VARCHAR;
