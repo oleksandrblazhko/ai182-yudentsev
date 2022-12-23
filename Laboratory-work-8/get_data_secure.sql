@@ -5,7 +5,7 @@ AS $$
 DECLARE
 	str VARCHAR;
 BEGIN
-	str := 'SELECT * FROM car WHERE model = $1;
+	str := 'SELECT * FROM car WHERE model = $1';
 	RAISE NOTICE 'Query=%',str;
 	RETURN QUERY EXECUTE str;
 END;
