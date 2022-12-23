@@ -7,6 +7,6 @@ DECLARE
 BEGIN
 	str := 'SELECT * FROM car WHERE model = $1';
 	RAISE NOTICE 'Query=%',str;
-	RETURN QUERY EXECUTE str;
+	RETURN QUERY EXECUTE str USING model_name;
 END;
 $$ LANGUAGE plpgsql;
